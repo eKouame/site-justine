@@ -1,0 +1,164 @@
+/*document information
+    -document: Les monuments en fêtes
+    -Version: 1.0.0 
+    -Autor: Justine 
+*/
+
+/* COLOR
+    -Defaut body #eee;
+    -H1
+    -h2
+    -h3
+    -button: hover
+    -border
+
+*/
+
+/* FONT
+    -Defaut
+    -Subtitle
+*/
+
+/*CSS DIRECTORY
+    1.= Global
+    2.= Header
+*/
+
+/* GLOBAL
+==========================================*/
+html{
+    background-color: #efef;
+} 
+h1 {
+
+}
+p {
+
+}
+body {
+    background-color:#A2CDF2;
+}
+
+/* HEADER
+===========================================*/
+
+header {
+    background-image: url(../image/louvre.png);
+    height: 396px;
+}
+.logosite {
+    margin: 50 auto;
+}
+.affichagemenu {
+    margin: 0 auto;
+    text-align: center;
+    height: 50px;
+}
+.bg-color {
+    background-color: #EE5F64;
+    height: 100px;
+}
+.navbar-light a {
+    text-decoration: none;
+    font-size: 20px;
+}
+.font-color {
+    color: #efef;
+    padding: 5 20;
+}
+.trapeze {
+    height: 100px;
+    position: relative;
+    border-top: 50px solid rgb(238,95,100);
+    border-left: 1920px solid transparent;
+}
+.bg {
+    background-color: #efef;
+    height: 1025px;
+}
+.hometitle {
+    text-align: center;
+    margin-top: 180px;
+}
+.hometitle h2 {
+    font-size: 60px;
+}
+.ctaimg {
+    margin-top: 70px;
+}
+.bgtexte {
+    background-color: #EE5F64;
+    border-radius: 15px;
+    height: 475px;
+    width: 600px;
+    padding: 50;
+    position: absolute;
+    left: 889px;
+    top: 840px;
+}
+.btn {
+    display: inline-block;
+    padding: 15 30;
+    margin: 20px;
+}
+.btn-full {
+    background-color: #FFF;
+    color: #EE5F64;
+    margin-left: 25px;
+}
+.btn-ghost {
+    border: 1px solid #FFFF;
+    color: #FFF;
+}
+h3:after {
+    display: block;
+    width: 1099px;
+    height: 2px;
+    background-color: #EE5F64;
+    content: "";
+    margin : 20 auto;
+}
+.card-body {
+    background-color: #EE5F64;
+}
+.btn-primary {
+    background-color: #FFF;
+    color: #EE5F64;
+}
+.classtitle {
+    margin-top: 50px;
+}
+.bgsection {
+    background-color: #FFF;
+
+}
+.sectiondescrition {
+    text-align: center;
+    margin: 0 auto;
+}
+.btn-galerie {
+    background-color: #EE5F64;
+    color: #FFF;
+}
+.carousel {
+    padding: 0 20 50 20;
+}
+.footer {
+    height: 400px;
+    text-align: center;
+    
+}
+.lienexterne {
+    background-color: #EE5F64;
+    height: 400px;
+    padding-top: 25px;
+
+    
+}
+.copyright {
+    background-color: black;
+    padding: 20px 20px;
+}
+.copyright p {
+   margin: 0 auto;
+}
